@@ -27,11 +27,12 @@
         <!-- Imagem de perfil -->
         <ImageView
             android:id="@+id/profile_image"
-            android:layout_width="120dp"
-            android:layout_height="120dp"
-            android:src="@drawable/baseline_supervised_user_circle_24"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:scaleType="fitCenter"
+            android:src="@drawable/foto_perfil"
             android:contentDescription="@string/profile_image_desc"
-            app:tint="?attr/colorPrimary" />
+            />
 
         <!-- Nome -->
         <TextView
